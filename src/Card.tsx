@@ -5,10 +5,12 @@ import Button from "@mui/material/Button";
 import Typography from "@mui/material/Typography";
 
 export default function MediaCard() {
-  const handleOpen = async () => {
+  let mplAndroidView: any;
+  const handleOpen = () => {
+    let mplAndroidView: any;
     try {
       mplAndroidView.performAction("OPEN_GAME");
-    } catch (er) {
+    } catch (er: any) {
       console.log("anroid-error");
       console.log(er.message);
     }
@@ -17,7 +19,7 @@ export default function MediaCard() {
   const handleClose = () => {
     try {
       mplAndroidView.performAction("CLOSE");
-    } catch (er) {
+    } catch (er: any) {
       console.log("anroid-error");
       console.log(er.message);
     }
