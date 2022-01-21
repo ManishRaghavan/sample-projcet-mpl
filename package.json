@@ -1,7 +1,7 @@
 {
   "name": "sample-app",
   "version": "0.1.0",
-  "homepage": "https://ManishRaghavan.github.io/sample-projcet-mpl",
+  "homepage": "https://manishraghavan.github.io/sample-projcet-mpl/",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.7.1",
