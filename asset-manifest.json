@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/ManishRaghavan/sample-projcet-mpl/static/css/main.44bd25f4.css",
+    "main.js": "/ManishRaghavan/sample-projcet-mpl/static/js/main.0bcd2533.js",
+    "static/js/787.4e5f8b91.chunk.js": "/ManishRaghavan/sample-projcet-mpl/static/js/787.4e5f8b91.chunk.js",
+    "index.html": "/ManishRaghavan/sample-projcet-mpl/index.html",
+    "main.44bd25f4.css.map": "/ManishRaghavan/sample-projcet-mpl/static/css/main.44bd25f4.css.map",
+    "main.0bcd2533.js.map": "/ManishRaghavan/sample-projcet-mpl/static/js/main.0bcd2533.js.map",
+    "787.4e5f8b91.chunk.js.map": "/ManishRaghavan/sample-projcet-mpl/static/js/787.4e5f8b91.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.44bd25f4.css",
+    "static/js/main.0bcd2533.js"
+  ]
+}
