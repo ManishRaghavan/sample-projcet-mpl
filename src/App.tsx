@@ -1,24 +1,29 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { Box } from "@mui/material";
+import "./App.css";
+import asset from "./asset_image.png";
+import MediaCard from "./Card";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
+      <div className="main">
+        <img className="img" src={asset} alt="asset" />
+        <h1>P2E</h1>
+        <Box
+          sx={{
+            display: "flex",
+            justifyContent: "space-between",
+            flexWrap: "wrap",
+          }}
         >
-          Learn React
-        </a>
-      </header>
+          <MediaCard />
+          <MediaCard />
+          <MediaCard />
+          <MediaCard />
+          <MediaCard />
+          <MediaCard />
+        </Box>
+      </div>
     </div>
   );
 }
